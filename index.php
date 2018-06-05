@@ -24,6 +24,14 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+<style>
+external-footer {
+    visibility: hidden;
+}
+</style>
+
+
 </head>
 <body>
 
