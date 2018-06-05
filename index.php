@@ -33,13 +33,7 @@
 			<form class="contact100-form validate-form">
 				<span class="contact100-form-title">
 					MyTracking
-				</span>
-
-				<div class="wrap-input100 validate-input" >
-					<span class="label-input100">Name</span>
-					<input class="input100" type="text" name="name" placeholder="Enter tracking name">
-					<span class="focus-input100"></span>
-				</div>
+				</span>				
 
 				<div class="wrap-input100 validate-input" >
 					<span class="label-input100">Tracking Number</span>
