@@ -59,7 +59,7 @@ external-footer {
 							</span>
 						</button>
 						<!--===============================================-->
-						<script src="//www.tracking.my/track-button.js"></script>
+						<script src="track-button.js"></script>
                         <script>
                         function inputTrack() {
                         var num = document.getElementById("TrackNo").value;
