@@ -76,6 +76,8 @@ external-footer {
 					</div>
 				</div>
 				<center><span class="label-input100">Track all your shipments in one place</span></center>
+				<br><br>
+                                <center><span class="label-input100">© 2018 - JomDevelop</span></center>
 			</form>
 		</div>
 	</div>
