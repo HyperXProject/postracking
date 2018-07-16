@@ -60,7 +60,7 @@ if it's not present, don't show loader */
 <body>
 
     <!-- Loading Animation -->
-    <div class="se-pre-con"></div>
+    <div class="se-pre-con">
 	
 	
 	<div class="container-contact100">
@@ -107,7 +107,7 @@ if it's not present, don't show loader */
                                 <center><span class="label-input100">© 2018 - JomDevelop</span></center>
 			</form>
 		</div>
-	</div>
+	</div></div>
 
 
 
