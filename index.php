@@ -23,19 +23,29 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/loading.css">
 <!--===============================================================================================-->
 
-<style>
-external-footer {
-    visibility: hidden;
-}
-</style>
-
+<!-- Loading Animation -->	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+<!-- Loading Animation -->	
 
 </head>
 <body>
 
-
+    <!-- Loading Animation -->
+    <div class="se-pre-con"></div>
+	
+	
 	<div class="container-contact100">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">
@@ -109,15 +119,7 @@ external-footer {
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-23581568-13');
-</script>
 
 </body>
 </html>
