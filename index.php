@@ -26,8 +26,7 @@
 	
 <!--===============================================================================================-->
 <style>
-	
-	/* Paste this css to your style sheet file or under head tag */
+/* Paste this css to your style sheet file or under head tag */
 /* This only works with JavaScript, 
 if it's not present, don't show loader */
 .no-js #loader { display: none;  }
@@ -39,9 +38,9 @@ if it's not present, don't show loader */
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(images/loader-64x/Preloader_2.gif) center no-repeat #fff;
+	background: url(images/loading/Preloader.gif) center no-repeat #fff;
 }
-</style >
+</style>
 	
 	
 <!-- Loading Animation -->	
