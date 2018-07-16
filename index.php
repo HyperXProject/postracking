@@ -1,6 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+
 	<title>MyTracking</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +24,49 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
 <!--===============================================================================================-->
+
+<!---------------- Loading Style ---------------------------->	
+<style>
+/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(images/loading/Preloader.gif) center no-repeat #fff;
+}
+</style>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
+
+<!-------------------------- End ---------------------------->	
 
 
 </head>
-<body> 
+<body>   
+
+    <!----- Loading Style ------->
+    <div class="se-pre-con"></div>
+	<!--------- End ------------->
 	
+	
+	<!----- Content ------->
 	
 	<div class="container-contact100">
 		<div class="wrap-contact100">
@@ -75,8 +112,9 @@
                                 <center><span class="label-input100">© 2018 - JomDevelop</span></center>
 			</form>
 		</div>
-	</div>
-
+	</div>	
+	
+	<!-------- End -------->	
 
 
 	<div id="dropDownSelect1"></div>
@@ -105,6 +143,6 @@
 	<script src="js/main.js"></script>
 
 
-
 </body>
+
 </html>
